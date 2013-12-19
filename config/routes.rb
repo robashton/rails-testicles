@@ -1,4 +1,6 @@
 Railstest::Application.routes.draw do
+  resources :cats
+
   resources :widgets
 
   root 'widgets#index'
