@@ -1,6 +1,6 @@
 Railstest::Application.routes.draw do
-  resources :cats
-
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   resources :widgets
 
   root 'widgets#index'
