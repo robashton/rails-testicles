@@ -15,6 +15,6 @@ end
 
 # App deps
 
+gem 'cancan'
 gem 'paperclip'
-gem 'devise'
-gem "the_role", "~> 2.0.0"
+gem 'devise' 
