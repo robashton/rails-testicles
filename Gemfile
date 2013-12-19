@@ -16,5 +16,5 @@ end
 # App deps
 
 gem 'paperclip'
-gem 'omniauth'
+gem 'devise'
 gem 'activeadmin', github: 'gregbell/active_admin'

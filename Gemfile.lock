@@ -76,7 +76,6 @@ GEM
     has_scope (0.6.0.rc)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
-    hashie (2.0.5)
     hike (1.2.3)
     i18n (0.6.9)
     inherited_resources (1.4.1)
@@ -100,9 +99,6 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.8.2)
-    omniauth (1.1.4)
-      hashie (>= 1.2, < 3)
-      rack
     orm_adapter (0.5.0)
     paperclip (3.5.2)
       activemodel (>= 3.0.0)
@@ -177,9 +173,9 @@ PLATFORMS
 DEPENDENCIES
   activeadmin!
   coffee-rails (~> 4.0.0)
+  devise
   jbuilder (~> 1.2)
   jquery-rails
-  omniauth
   paperclip
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
