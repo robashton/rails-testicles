@@ -17,4 +17,4 @@ end
 
 gem 'paperclip'
 gem 'devise'
-gem 'activeadmin', github: 'gregbell/active_admin'
+gem "the_role", "~> 2.0.0"
