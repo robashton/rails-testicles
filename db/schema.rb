@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131216203544) do
+ActiveRecord::Schema.define(version: 20131219124430) do
 
   create_table "widgets", force: true do |t|
     t.datetime "created_at"
