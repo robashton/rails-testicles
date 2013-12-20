@@ -14,4 +14,6 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'inherited_resources'
+gem 'inherited_resources' # wow, such coolness
+gem 'cancan' 
+gem 'devise'
