@@ -14,3 +14,4 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'inherited_resources'
